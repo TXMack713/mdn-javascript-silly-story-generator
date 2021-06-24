@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  word-break: keep-all;
+  -ms-word-break: keep-all;
+  hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: lightslategray;
+}
